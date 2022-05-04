@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(90deg,#E5E5E5 50%, #5479FA 50%);
+}
+
+
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1rem;
+  
+}
+.logo {
+  justify-self: flex-start;
+  margin-bottom: -9rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color:#F5F6FA;
+  width: 70vw;
+  height: 38rem;
+  border: 5px;
+  border-color: black;
+  border-radius: 30px;
+  margin-top:5% ;
+
+}
+
+.underline{
+  width: 15vw;
+  height: 3px;
+  border: 0;
+  background-color: #5479FA;
+
+}
+.title {
+  margin-top: 3rem;
+  font-size: 3vw;
+  text-align: center;
+
+}
+.form-options {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1rem;
+}
+
+
+.option {
+  width: 30vw;
+  height: 45px;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 1vw;
+}
+.venue-option {
+  
+  width:31vw ;
+} 
+
+#submit {
+  background-color: #5479FA;
+  color: white;
+  width: 15vw;
+}
+
+.booking-purpose {
+  height: 100px;
+}
+.submit {
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .option {
+    height:40px;
+  }
+  .title{
+   font-size: 1.5rem;
+   height: 0rem;
+  }
+  .logo {
+    justify-self: center;
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+    margin-left: 0;
+    z-index: 100;
+  }
+
+  .logo img{
+    height: 60px;
+    width: 50px;
+  }
+
+  .option::placeholder
+  {
+    font-size: 0.7rem;
+  }
+  
+  .booking-purpose {
+    height: 100px;
+  }
+  
+
+}

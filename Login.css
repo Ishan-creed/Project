@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(90deg, #E5E5E5 50%, #5479FA 50%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container1 {
+    background-color: #E8ECF5;
+    width: 50%;
+}
+
+.logo {
+    margin-top: -7rem;
+}
+
+img {
+    height: 10rem;
+    width: 8rem;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #F5F6FA;
+    height: 60vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.container2 {
+    background-color: #5479FA;
+    width: 50%;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
+    background-color: #6788FF;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 60%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.EmailHeading {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+#EmailInput {
+    border-radius: 5px;
+    padding-left: 1vw;
+    font-size: 70%;
+    margin-top: 2rem;
+    border: 0;
+}
+
+.PasswordHeading {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+#PasswordInput {
+    border-radius: 5px;
+    padding-left: 1vw;
+    font-size: 70%;
+    margin-top: 2rem;
+    border: 0;
+}
+
+.reset {
+    font-size: 70%;
+    color: #5479FA;
+    margin-top: 2%;
+    margin-left: 30%;
+    text-decoration: underline 1px #5479FA;
+}
+
+#LoginButton {
+    margin-top: 3rem;
+    background-color: #5479FA;
+    color: white;
+    width: 10vw;
+    /* padding: 2% */
+    border-radius: 5px;
+    border-color: white;
+    border: 0;
+}
+
+.login-input {
+    width: 13vw;
+    height: 2rem;
+}
+
+.juit {
+    font-weight: bolder;
+    font-size: 220%;
+}
+
+.approval {
+    font-size: 120%;
+    /* font-size: 200%; */
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container1 {
+        background-image: linear-gradient(90deg,#E5E5E5 50%, #5479FA 50%);
+        width: 100%;
+    }
+
+    .leftContainer {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .container2 {
+        display: none;
+    }
+    img {
+        height: 10rem;
+        width: 8rem;
+    }
+    
+    .leftContainer {
+        border-radius: 15px;
+    }
+
+    #LoginButton {
+        margin-top: 1.5rem;
+    }
+    
+    
+    .login-input {
+        width: 25vw;
+        height: 25px;
+    }
+}
